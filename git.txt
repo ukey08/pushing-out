@@ -1,0 +1,16 @@
+$ linkerd stat all
+$ linkerd stat all -n linkerd
+$ linkerd stat all -n emojivoto
+$ linkerd stat all -A
+$ linkerd stat deploy -n emojivoto
+$ linkerd stat po -n emojivoto
+$ linkerd stat job -n emojivoto-job
+$ linkerd stat sts -n emojivoto-sts
+$ linkerd stat ns
+$ linkerd stat authority
+$ linkerd stat authority -A
+$ linkerd stat ts -n emojivoto-ts
+$ linkerd stat ns --from ns/linkerd
+$ linkerd stat ns --from ns/emojivoto-ts
+$ linkerd stat po --to deploy/linkerd-prometheus --to-namespace linkerd -A
+$ linkerd stat po --from deploy/web --from-namespace emojivoto -A
