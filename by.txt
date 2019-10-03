@@ -1,0 +1,2 @@
+
+prizmogo://x-callback-url/captureText?input=camera&ocr=en&destination=callback
